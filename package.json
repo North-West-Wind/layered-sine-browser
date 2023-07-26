@@ -1,0 +1,34 @@
+{
+  "name": "layered-sine-browser",
+  "version": "1.1.1",
+  "description": "Fills a canvas with sine wave(s).",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "ts-node test/test.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/North-West-Wind/layered-sine-browser.git"
+  },
+  "keywords": [
+    "canvas",
+    "sine",
+    "fill"
+  ],
+  "author": "NorthWestWind",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/North-West-Wind/layered-sine-browser/issues"
+  },
+  "homepage": "https://github.com/North-West-Wind/layered-sine-browser#readme",
+  "devDependencies": {
+    "@types/node": "^18.17.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
